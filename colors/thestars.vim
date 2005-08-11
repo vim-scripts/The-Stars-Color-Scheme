@@ -105,11 +105,11 @@ hi Constant guibg=black guifg=#CC1100
 " hi Float guibg=black guifg=#C6C3B5
 
 " Identifier
-hi Identifier guibg=black guifg=#FF9955
+hi Identifier guibg=black guifg=#FFC469
 " hi Function guibg=black guifg=#4682B4
 
 " Statement
-hi Statement guibg=black guifg=#EEC900
+hi Statement guibg=black guifg=#FFF68F
 " hi Conditional guibg=black guifg=#D98719
 " hi Repeat guibg=black guifg=#D98719
 " hi Label guibg=black guifg=white
