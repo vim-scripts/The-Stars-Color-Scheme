@@ -1,6 +1,6 @@
 " Vim Color File
 " Maintainer: Michael Wiseman (thestarslookdown at gmail dot com)
-" Last Change: July 22, 2005
+" Last Change: August 11, 2005
 
 " Color Help Screens
 " h cterm-colors
@@ -84,7 +84,7 @@ hi Visual guibg=#DAF4F0 guifg=#666666
 hi VisualNOS guibg=#DAF4F0 guifg=#666666 gui=italic
 
 " Warning Message
-hi WarningMsg guibg=black guifg=yellow
+hi WarningMsg guibg=black guifg=red
 
 " Wild Menu
 hi WildMenu guibg=white guifg=black gui=bold
@@ -94,7 +94,7 @@ hi WildMenu guibg=white guifg=black gui=bold
 "------------------------------------------------------------------------------
 
 " Comments
-hi Comment guibg=black guifg=lightgray gui=italic
+hi Comment guibg=black guifg=#FDF8FF gui=italic
 
 " Constants
 hi Constant guibg=black guifg=#CC1100
@@ -105,11 +105,11 @@ hi Constant guibg=black guifg=#CC1100
 " hi Float guibg=black guifg=#C6C3B5
 
 " Identifier
-hi Identifier guibg=black guifg=#FFC469
+hi Identifier guibg=black guifg=#FF9955
 " hi Function guibg=black guifg=#4682B4
 
 " Statement
-hi Statement guibg=black guifg=#FFF68F
+hi Statement guibg=black guifg=#FCD59C
 " hi Conditional guibg=black guifg=#D98719
 " hi Repeat guibg=black guifg=#D98719
 " hi Label guibg=black guifg=white
@@ -118,20 +118,20 @@ hi Statement guibg=black guifg=#FFF68F
 " hi Exception guibg=black guifg=#D98719
 
 " PreProc
-hi PreProc guibg=black guifg=#0000F0
+hi PreProc guibg=black guifg=blue
 " hi Include guibg=black guifg=#D98719
 " hi Define guibg=black guifg=#D98719
 " hi Macro guibg=black guifg=#D98719
 " hi PreCondit guibg=black guifg=#D98719
  
 " Type
-hi Type guibg=black guifg=#006400
+hi Type guibg=black guifg=darkgreen
 " hi StorageClass guibg=black guifg=white
 " hi Structure guibg=black guifg=white
 " hi Typedef guibg=black guifg=white
 
 " Special
-hi Special guibg=black guifg=#63B8FF
+hi Special guibg=black guifg=#87CEFA
 "hi SpecialChar guibg=black guifg=orange
 "hi Tag guibg=black guifg=orange
 "hi Delimiter guibg=black guifg=orange
