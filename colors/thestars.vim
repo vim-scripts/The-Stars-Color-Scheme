@@ -1,6 +1,6 @@
 " Vim Color File
 " Maintainer: Michael Wiseman (thestarslookdown at gmail dot com)
-" Last Change: August 11, 2005
+" Last Change: Thursday, September 8, 2005
 
 " Color Help Screens
 " h cterm-colors
@@ -21,7 +21,7 @@ let colors_name = "thestars"
 
 " Cursors
 hi Cursor guibg=white guifg=black gui=bold
-hi lCursor guifg=white guifg=black gui=bold
+hi lCursor guibg=white guifg=black gui=bold
 
 " Directory
 hi Directory guibg=black guifg=#9BC4E2
@@ -80,8 +80,8 @@ hi StatusLineNC guibg=#333333 guifg=#666666
 hi Title guifg=black guifg=white gui=bold
 
 " Visual
-hi Visual guibg=#DAF4F0 guifg=#666666
-hi VisualNOS guibg=#DAF4F0 guifg=#666666 gui=italic
+hi Visual guifg=#FFFAFA guibg=#666666
+hi VisualNOS guibg=#FFFAFA guifg=#666666 gui=italic
 
 " Warning Message
 hi WarningMsg guibg=black guifg=red
@@ -105,11 +105,11 @@ hi Constant guibg=black guifg=#CC1100
 " hi Float guibg=black guifg=#C6C3B5
 
 " Identifier
-hi Identifier guibg=black guifg=#FF9955
+hi Identifier guibg=black guifg=#FFD700
 " hi Function guibg=black guifg=#4682B4
 
 " Statement
-hi Statement guibg=black guifg=#FCD59C
+hi Statement guibg=black guifg=#40826D
 " hi Conditional guibg=black guifg=#D98719
 " hi Repeat guibg=black guifg=#D98719
 " hi Label guibg=black guifg=white
@@ -118,20 +118,20 @@ hi Statement guibg=black guifg=#FCD59C
 " hi Exception guibg=black guifg=#D98719
 
 " PreProc
-hi PreProc guibg=black guifg=blue
+hi PreProc guibg=black guifg=#007FFF
 " hi Include guibg=black guifg=#D98719
 " hi Define guibg=black guifg=#D98719
 " hi Macro guibg=black guifg=#D98719
 " hi PreCondit guibg=black guifg=#D98719
  
 " Type
-hi Type guibg=black guifg=darkgreen
+hi Type guibg=black guifg=#50C878
 " hi StorageClass guibg=black guifg=white
 " hi Structure guibg=black guifg=white
 " hi Typedef guibg=black guifg=white
 
 " Special
-hi Special guibg=black guifg=#87CEFA
+hi Special guibg=black guifg=#38B0DE
 "hi SpecialChar guibg=black guifg=orange
 "hi Tag guibg=black guifg=orange
 "hi Delimiter guibg=black guifg=orange
