@@ -1,6 +1,7 @@
 " Vim Color File
+" Last Change: Thursday, October 20, 2005
 " Maintainer: Michael Wiseman (thestarslookdown at gmail dot com)
-" Last Change: Thursday, September 8, 2005
+let s:thestars_version = 0.51
 
 " Color Help Screens
 " h cterm-colors
@@ -62,6 +63,12 @@ hi NonText guibg=black guifg=white
 
 " Normal Text
 hi Normal guibg=black guifg=white
+
+" Popup Menu For Omni Completion
+hi Pmenu guibg=#FFF5EE guifg=#D2691E
+hi PmenuSel guibg=#E9C2A6 guifg=#C73F17 gui=bold
+hi PmenuSbar guibg=#FFDAB9
+hi PmenuThumb guifg=#DB9370
 
 " Question
 hi Question guibg=black guifg=darkgreen gui=bold
