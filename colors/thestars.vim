@@ -1,7 +1,7 @@
 " Vim Color File
 " Last Change: Thursday, October 20, 2005
 " Maintainer: Michael Wiseman (thestarslookdown at gmail dot com)
-let s:thestars_version = 1.0
+let s:thestars_version = 1.0.1
 
 " Color Help Screens
 " h cterm-colors
@@ -20,8 +20,8 @@ let colors_name = "thestars"
 " Highlight Groups
 "------------------------------------------------------------------------------
 
-hi Cursor guifg=#2E473B guibg=white gui=bold " ctermfg=black ctermbg=white cterm=bold
-hi lCursor guifg=#2E473B guibg=white " ctermfg=black ctermbg=white
+hi Cursor guifg=#FFFAFA guibg=#2E473B gui=bold " ctermfg=black ctermbg=white cterm=bold
+hi CursorLine guifg=#0E0E18 guibg=#FDF8FF " ctermfg=black ctermbg=white
 hi DiffAdd guifg=white guibg=#FF4F00 " ctermfg=white ctermbg=darkyellow
 hi DiffChange guifg=white guibg=#2E473B " ctermfg=white ctermbg=darkgray
 hi Directory guifg=#2E473B guibg=black " ctermfg=darkgray ctermbg=black
